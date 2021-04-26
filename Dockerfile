@@ -1,6 +1,6 @@
 FROM tomcat:8-alpine
 
-copy /var/lib/jenkins/workspace/deployment/target/*  /usr/local/tomcat/webapps
+copy /var/lib/jenkins/workspace/deployment/target/.  /usr/local/tomcat/webapps
 
 
 EXPOSE 8080
