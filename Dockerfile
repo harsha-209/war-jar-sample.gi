@@ -1,6 +1,6 @@
 FROM tomcat:8-alpine
 
-ADD works-with-heroku-1.0.war   /usr/local/tomcat/webapps
+ADD /var/lib/jenkins/workspace/deployment/target/war-jar-sample.jar   /usr/local/tomcat/webapps
 
 
 EXPOSE 8080
