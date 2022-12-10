@@ -36,7 +36,7 @@ jobs:
         name: artifact
         # optional, default is artifact
     # A file, directory or wildcard pattern that describes what to upload
-        path: war-jar-sample.war
+        path: /home/runner/work/war-jar-sample.gi/war-jar-sample.gi/target/war-jar-sample.war
     ## /home/runner/work/war-jar-sample.gi/war-jar-sample.gi/target/war-jar-sample.war
     # The desired behavior if no files are found using the provided path.
     
