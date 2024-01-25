@@ -9,9 +9,7 @@ pipeline {
         }
         stage('excutebranchtrigger') {
                 when {
-                    expression {
-                        return env.BRANCH_NAME = 'master1';
-                    }
+                     branch 'main'
                 }
                 steps {
                     echo 'branch excute stage'
