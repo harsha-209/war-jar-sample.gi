@@ -9,7 +9,7 @@ pipeline {
         }
         stage('excutebranchtrigger') {
                 when {
-                     branch 'master'
+                     branch 'prod'
                 }
                 steps {
                     echo 'branch excute stage'
