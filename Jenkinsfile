@@ -10,7 +10,7 @@ pipeline {
         stage('excutebranchtrigger') {
                 when {
                     expression {
-                        return env.BRANCH_NAME = 'master';
+                        return env.BRANCH_NAME = 'master1';
                     }
                 }
                 steps {
